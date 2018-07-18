@@ -1,0 +1,30 @@
+{
+  "diseases" : [
+    "my child has cholera",
+    "my child suffer from sudden death syndrome",
+    "my child is deathly allergic to schola",
+    "my child has the bubonic plague",
+    "my child has a crippling fear of teachers"
+  ],
+  "pet" : [
+    "our dog died",
+    "our cat died",
+    "our pet velociraptor escaped confinement",
+    "their cousin died",
+    "grandma's funeral is today"
+  ],
+  "extracurricular" : [
+    "my child is going to camp crystal lake",
+    "my child need to go to band camp",
+    "my child is invited to test drive a new jetpack",
+    "my child is going on a quest to save the world",
+    "my child has a theremine recital"
+  ],
+  "wacky" : [
+    "my child has been abducted by alien",
+    "my child is relocating to mars",
+    "my child is slowly turning into a toxic puddle",
+    "my child is host to a parasitic alien",
+    "my child can't be bothered"
+  ]
+}

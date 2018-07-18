@@ -18,7 +18,7 @@
        <input class="w3-radio w3-margin-bottom" type="radio" name="excuse" value="1"><span class="pl-10">disease</span> <br>
        <input class="w3-radio w3-margin-bottom" type="radio" name="excuse" value="2"><span class="pl-10">death of pet (or family member)</span> <br>
        <input class="w3-radio w3-margin-bottom" type="radio" name="excuse" value="3"><span class="pl-10">Important extracurricular activity</span> <br>
-       <input class="w3-radio w3-margin-bottom" type="radio" name="excuse" value="4"><span class="pl-10">Alien abduction</span> <br>
+       <input class="w3-radio w3-margin-bottom" type="radio" name="excuse" value="4"><span class="pl-10">wacky (but aren't they all?)</span> <br>
        <input class="w3-button w3-black" type="submit" name="submit" value="submit">
      </form>
    </div>

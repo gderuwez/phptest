@@ -1,18 +1,25 @@
 <?php
   $localtime = localtime(time(), true);
+  $pathtofile = 'excuses.json';
+  $excuses = file_get_contents($pathtofile);
+  $decode_excuses = json_decode($excuses, true);
+  function excuses($sub){
+    global $decode_excuses;
+    return $decode_excuses[$sub][array_rand($decode_excuses[$sub], 1)];
+  }
 
   switch ($_GET['excuse']) {
     case 1:
-      $chosenExcuse = "my child has cholera";
+      $chosenExcuse = excuses('diseases');
       break;
     case 2:
-      $chosenExcuse = "our pet died";
+      $chosenExcuse = excuses('pet');;
       break;
     case 3:
-      $chosenExcuse = "my child is going to camp crystal lake";
+      $chosenExcuse = excuses('extracurricular');;
       break;
     case 4:
-      $chosenExcuse = "my child was abducted by alien";
+      $chosenExcuse = excuses('wacky');;
       break;
     default:
       $chosenExcuse = "I really can't think of an excuse right now";
